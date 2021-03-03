@@ -1,0 +1,94 @@
+/* 
+Author: SurajNandi;
+Project Name: Joke App Using Javascript;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #487eb0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background: #fff;
+    padding: 3rem 2em;
+    margin: 0 2rem;
+    border-radius: 0.5rem;
+}
+
+.title h1 {
+    color: #192a56;
+    margin: 1rem 0;
+}
+
+#category {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+#setup {
+    margin: 1rem 0;
+}
+
+#delivery {
+    margin-bottom: 1.5rem;
+}
+
+#joke-btn {
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.8rem;
+    background: #192a56;
+    color: #fff;
+    border: 2px solid #718093;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+#joke-btn:hover {
+    background: #fff;
+    color: #192a56;
+    border-color: #718093;
+}
+
+#joke-btn:focus {
+    outline: 0;
+}
+
+.footer {
+    margin-top: 10%;
+    color: #7f8fa6;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #718093;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #192a56;
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        width: 680px;
+    }
+}
